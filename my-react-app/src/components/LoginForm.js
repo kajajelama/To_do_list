@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
-const LoginForm = ({ handleLogin }) => {
+const LoginForm = ({ handleLogin }) => { //definice komponenty, ktera je funkcionalni komponentou, pouzivajici Reakt hooks.
+  
+  //toto je funkcni komponenta, ktera prijima funkci handle login,
+  //jako prop, coz je funkce pro zpracovani osobnich udaju.
+
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
