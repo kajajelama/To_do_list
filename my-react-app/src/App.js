@@ -3,6 +3,9 @@ import './App.css';
 import LoginForm from './components/LoginForm';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Square  from './components/try';
+
+
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -31,6 +34,7 @@ const App = () => {
             </>
           )}
         </p>
+        <Square />
       </main>
       <Footer />
     </div>

@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and installing dependencies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
+
 
 ## Available Scripts
 
@@ -13,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+
+# you do not need those thing fot dev environment, this project is yet only for portfolio purposes. 
+
+
 
 ### `npm test`
 
