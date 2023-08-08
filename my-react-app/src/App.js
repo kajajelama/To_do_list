@@ -18,7 +18,7 @@ const App = () => {
       <Header />
       <main>
         {loggedIn ? (
-          <h1>Vítejte, {username}!</h1>
+          <h1>Vítejte, {username}!</h1> //vyuziti ternary operators v ramci reaktu. 
         ) : (
           <LoginForm handleLogin={handleLogin} />
         )}

@@ -8,8 +8,8 @@ const LoginForm = ({ handleLogin }) => { //definice komponenty, ktera je funkcio
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (e) => { //tato funkce prijima udalost --event
+    e.preventDefault(); //zamezi znovuobnoveni stranky
     // Tady byste odeslali přihlašovací údaje na server a ověřili byste je.
     // Pro ukázku použijeme pouze lokalní stav.
 
