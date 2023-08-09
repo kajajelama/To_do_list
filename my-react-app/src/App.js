@@ -3,7 +3,7 @@ import './App.css';
 import LoginForm from './components/LoginForm';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Square  from './components/try';
+import Board from './components/try';
 
 
 
@@ -34,7 +34,7 @@ const App = () => {
             </>
           )}
         </p>
-        <Square />
+        <Board />
       </main>
       <Footer />
     </div>
